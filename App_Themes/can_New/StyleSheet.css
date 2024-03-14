@@ -1,0 +1,15 @@
+﻿body {
+}
+.horizontal-align-center
+{
+    text-align:center;
+}
+.required:after {
+content:" *";
+color: red;
+}
+
+.optional:after{
+content:" (optional)";
+color: forestgreen;
+}
